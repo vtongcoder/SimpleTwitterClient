@@ -9,7 +9,6 @@
 import UIKit
 
 
-
 class LoginViewController: UIViewController {
   
   @IBOutlet weak var hiImage: UIImageView!
@@ -40,13 +39,13 @@ class LoginViewController: UIViewController {
   
   @IBAction func onLoginButton(sender: UIButton) {
     TwitterClient.sharedInstance.requestSerializer.removeAccessToken()
-
     TwitterClient.sharedInstance.fetchRequestTokenWithPath("oauth/request_token", method: "GET", callbackURL: NSURL(string: "cptwitterdemo://oauth"), scope: nil, success: { (requestToken: BDBOAuth1Credential!) -> Void in
-        print("Request Token success")
-      }) { (error: NSError) -> Void in
-        print("Request Token error")
-        
+    print("Request Token success")
+    }) { (error: NSError!) -> Void in
+    print("Request Token error")
     }
+
+
   }
   
   

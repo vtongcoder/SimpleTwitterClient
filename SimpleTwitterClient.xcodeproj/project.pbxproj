@@ -7,28 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1B9ED94830276B4A62F7543 /* libPods-SimpleTwitterClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E96A7AA481D546B7B2070A11 /* libPods-SimpleTwitterClient.a */; };
 		C50E6E0E1BA1A6FE00F49F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50E6E0D1BA1A6FE00F49F89 /* AppDelegate.swift */; };
 		C50E6E131BA1A6FE00F49F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50E6E111BA1A6FE00F49F89 /* Main.storyboard */; };
 		C50E6E151BA1A6FE00F49F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C50E6E141BA1A6FE00F49F89 /* Assets.xcassets */; };
 		C50E6E181BA1A6FE00F49F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50E6E161BA1A6FE00F49F89 /* LaunchScreen.storyboard */; };
 		C57F99E11BA2875A00013D1D /* TwitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57F99E01BA2875A00013D1D /* TwitterClient.swift */; };
 		C5C285851BA2C928008B3FC8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C285841BA2C928008B3FC8 /* LoginViewController.swift */; };
-		F3E9263AFBF0A15B9DC3E4C4 /* libPods-SimpleTwitterClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 975D54A3C43691D27BC36174 /* libPods-SimpleTwitterClient.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		508E38FB2FAB822B1A3BF79F /* Pods-SimpleTwitterClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTwitterClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTwitterClient/Pods-SimpleTwitterClient.release.xcconfig"; sourceTree = "<group>"; };
 		8F619F291B08626CD6049DA7 /* Pods-SimpleTwitterClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTwitterClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTwitterClient/Pods-SimpleTwitterClient.debug.xcconfig"; sourceTree = "<group>"; };
-		975D54A3C43691D27BC36174 /* libPods-SimpleTwitterClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleTwitterClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C50E6E0A1BA1A6FE00F49F89 /* SimpleTwitterClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTwitterClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C50E6E0D1BA1A6FE00F49F89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C50E6E121BA1A6FE00F49F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C50E6E141BA1A6FE00F49F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C50E6E171BA1A6FE00F49F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C50E6E191BA1A6FE00F49F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C57F99DB1BA286E800013D1D /* SimpleTwitterClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleTwitterClient-Bridging-Header.h"; sourceTree = "<group>"; };
 		C57F99E01BA2875A00013D1D /* TwitterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterClient.swift; sourceTree = "<group>"; };
 		C5C285841BA2C928008B3FC8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C5F312681BA2F9EF006262B9 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking.framework"; sourceTree = "<group>"; };
+		C5F3126A1BA2F9F3006262B9 /* BDBOAuth1Manager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BDBOAuth1Manager.framework; path = "Pods/../build/Debug-iphoneos/BDBOAuth1Manager.framework"; sourceTree = "<group>"; };
+		C5F3126C1BA2FB4D006262B9 /* SimpleTwitterClient-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SimpleTwitterClient-Bridging-Header.h"; sourceTree = "<group>"; };
+		E96A7AA481D546B7B2070A11 /* libPods-SimpleTwitterClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleTwitterClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3E9263AFBF0A15B9DC3E4C4 /* libPods-SimpleTwitterClient.a in Frameworks */,
+				A1B9ED94830276B4A62F7543 /* libPods-SimpleTwitterClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +48,9 @@
 		0498769C823E21192837D9BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				975D54A3C43691D27BC36174 /* libPods-SimpleTwitterClient.a */,
+				C5F3126A1BA2F9F3006262B9 /* BDBOAuth1Manager.framework */,
+				C5F312681BA2F9EF006262B9 /* AFNetworking.framework */,
+				E96A7AA481D546B7B2070A11 /* libPods-SimpleTwitterClient.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -72,6 +76,7 @@
 		C50E6E0C1BA1A6FE00F49F89 /* SimpleTwitterClient */ = {
 			isa = PBXGroup;
 			children = (
+				C5F3126C1BA2FB4D006262B9 /* SimpleTwitterClient-Bridging-Header.h */,
 				C5C285861BA2C968008B3FC8 /* Models */,
 				C5C285831BA2C908008B3FC8 /* ViewController */,
 				C57F99DF1BA2872200013D1D /* API */,
@@ -80,7 +85,6 @@
 				C50E6E141BA1A6FE00F49F89 /* Assets.xcassets */,
 				C50E6E161BA1A6FE00F49F89 /* LaunchScreen.storyboard */,
 				C50E6E191BA1A6FE00F49F89 /* Info.plist */,
-				C57F99DB1BA286E800013D1D /* SimpleTwitterClient-Bridging-Header.h */,
 			);
 			path = SimpleTwitterClient;
 			sourceTree = "<group>";
@@ -151,6 +155,7 @@
 				TargetAttributes = {
 					C50E6E091BA1A6FE00F49F89 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = K4TU4EW2V3;
 					};
 				};
 			};
@@ -287,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -325,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -338,6 +343,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = SimpleTwitterClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iOSCourse.SimpleTwitterClient;
@@ -353,8 +363,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = SimpleTwitterClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = iOSCourse.SimpleTwitterClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "SimpleTwitterClient/SimpleTwitterClient-Bridging-Header.h";
