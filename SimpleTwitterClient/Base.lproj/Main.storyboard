@@ -94,6 +94,9 @@
                                         <state key="normal" title="Sign in">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onLoginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YB4-Qg-bok"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5V-1I-Rbf">
                                         <rect key="frame" x="0.0" y="181" width="320" height="40"/>

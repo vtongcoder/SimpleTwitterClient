@@ -38,6 +38,18 @@ class LoginViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
   
+  @IBAction func onLoginButton(sender: UIButton) {
+    TwitterClient.sharedInstance.requestSerializer.removeAccessToken()
+
+    TwitterClient.sharedInstance.fetchRequestTokenWithPath("oauth/request_token", method: "GET", callbackURL: NSURL(string: "cptwitterdemo://oauth"), scope: nil, success: { (requestToken: BDBOAuth1Credential!) -> Void in
+        print("Request Token success")
+      }) { (error: NSError) -> Void in
+        print("Request Token error")
+        
+    }
+  }
+  
+  
   // MARK: - Keyboard Manage
   func textFieldShouldReturn(textField: UITextField) -> Bool {
     self.view.endEditing(true)
@@ -76,11 +88,11 @@ class LoginViewController: UIViewController {
       })
     } else {
       UIView.animateWithDuration(0.1, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 10, options: UIViewAnimationOptions.CurveEaseIn, animations: { () -> Void in
-        self.getStartedImage.transform = CGAffineTransformMakeTranslation(150, 0)
+        self.getStartedImage.transform = CGAffineTransformMakeTranslation(self.getStartedImage.frame.size.width, 0)
         }, completion: { (finished) -> Void in
       })
       UIView.animateWithDuration(0.1, delay: 0.1, usingSpringWithDamping: 0.7, initialSpringVelocity: 10, options: UIViewAnimationOptions.CurveEaseIn, animations: { () -> Void in
-        self.hiImage.transform = CGAffineTransformMakeTranslation(150, 0)
+        self.hiImage.transform = CGAffineTransformMakeTranslation(self.hiImage.frame.size.width, 0)
         }, completion: { (finished) -> Void in
       })
       
