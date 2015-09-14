@@ -29,7 +29,7 @@
 </string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>cptwitterdemo</string>
+				<string>outh-swift</string>
 			</array>
 		</dict>
 	</array>
@@ -45,6 +45,11 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

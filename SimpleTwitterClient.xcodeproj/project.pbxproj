@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1B9ED94830276B4A62F7543 /* libPods-SimpleTwitterClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E96A7AA481D546B7B2070A11 /* libPods-SimpleTwitterClient.a */; };
+		5CBDD2A092ECFB2009B66FEF /* libPods-SimpleTwitterClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 231FA3DA43F77D3FC0CE750A /* libPods-SimpleTwitterClient.a */; };
 		C50E6E0E1BA1A6FE00F49F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50E6E0D1BA1A6FE00F49F89 /* AppDelegate.swift */; };
 		C50E6E131BA1A6FE00F49F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50E6E111BA1A6FE00F49F89 /* Main.storyboard */; };
 		C50E6E151BA1A6FE00F49F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C50E6E141BA1A6FE00F49F89 /* Assets.xcassets */; };
@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		231FA3DA43F77D3FC0CE750A /* libPods-SimpleTwitterClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleTwitterClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		508E38FB2FAB822B1A3BF79F /* Pods-SimpleTwitterClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTwitterClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTwitterClient/Pods-SimpleTwitterClient.release.xcconfig"; sourceTree = "<group>"; };
 		8F619F291B08626CD6049DA7 /* Pods-SimpleTwitterClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTwitterClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTwitterClient/Pods-SimpleTwitterClient.debug.xcconfig"; sourceTree = "<group>"; };
 		C50E6E0A1BA1A6FE00F49F89 /* SimpleTwitterClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTwitterClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,7 +31,9 @@
 		C5F312681BA2F9EF006262B9 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking.framework"; sourceTree = "<group>"; };
 		C5F3126A1BA2F9F3006262B9 /* BDBOAuth1Manager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BDBOAuth1Manager.framework; path = "Pods/../build/Debug-iphoneos/BDBOAuth1Manager.framework"; sourceTree = "<group>"; };
 		C5F3126C1BA2FB4D006262B9 /* SimpleTwitterClient-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SimpleTwitterClient-Bridging-Header.h"; sourceTree = "<group>"; };
-		E96A7AA481D546B7B2070A11 /* libPods-SimpleTwitterClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SimpleTwitterClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F3126D1BA31C6F006262B9 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking.framework"; sourceTree = "<group>"; };
+		C5F3126E1BA31C6F006262B9 /* BDBOAuth1Manager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BDBOAuth1Manager.framework; path = "Pods/../build/Debug-iphoneos/BDBOAuth1Manager.framework"; sourceTree = "<group>"; };
+		C5F3126F1BA31C6F006262B9 /* OAuthSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OAuthSwift.framework; path = "Pods/../build/Debug-iphoneos/OAuthSwift.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B9ED94830276B4A62F7543 /* libPods-SimpleTwitterClient.a in Frameworks */,
+				5CBDD2A092ECFB2009B66FEF /* libPods-SimpleTwitterClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,9 +51,12 @@
 		0498769C823E21192837D9BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C5F3126D1BA31C6F006262B9 /* AFNetworking.framework */,
+				C5F3126E1BA31C6F006262B9 /* BDBOAuth1Manager.framework */,
+				C5F3126F1BA31C6F006262B9 /* OAuthSwift.framework */,
 				C5F3126A1BA2F9F3006262B9 /* BDBOAuth1Manager.framework */,
 				C5F312681BA2F9EF006262B9 /* AFNetworking.framework */,
-				E96A7AA481D546B7B2070A11 /* libPods-SimpleTwitterClient.a */,
+				231FA3DA43F77D3FC0CE750A /* libPods-SimpleTwitterClient.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
